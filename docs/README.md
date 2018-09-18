@@ -7,7 +7,7 @@ Testing Status: [![CircleCI](https://circleci.com/gh/RainbowHackerHorse/vzvol.sv
 vzvol is a tool to assist in the creation of ZFS zvols as storage for various virtualization providers.
 
 ## What
-Creates a ZFS zvol, and configures permissions, and creates and registers a VirtualBox VMDK shim for the zvol if you ask nicely. 
+Creates a ZFS zvol, configures permissions and creates and registers a VirtualBox VMDK shim for the zvol if you ask nicely. 
 
 ## Why
 This allows you to use the zvol to back a disk for VirtualBox, bhyve, or other virtualization providers.
